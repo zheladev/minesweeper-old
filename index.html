@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Minesweeper</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <script src="main.js"></script>
+</head>
+
+
+
+
+
+
+<body>
+    
+    <div id="choice-buttons">
+        <div class="btn-group" id="btnGroup" role="group" aria-label="Basic example">
+            <button type="button" id="principiante" class="btn btn-secondary">Principiante</button>
+            <button type="button" id="intermedio" class="btn btn-secondary">Intermedio</button>
+            <button type="button" id="experto" class="btn btn-secondary">Experto</button>
+            <button type="button" id="custom" class="btn btn-secondary">Custom</button>
+        </div>
+        <div class="btn-group" id="debugBtn">
+            <!--Debug buttons go here-->
+        </div>
+    </div>
+    <div class="game-container">
+        <div id="minesweeper">
+            <div id="gameCounter">
+                <div id="timeCnt" class="counterImg">
+                    <div>
+                        <img id="cnt3" src="img/time0.gif">
+                        <img id="cnt2" src="img/time0.gif">
+                        <img id="cnt1" src="img/time0.gif">
+                    </div>
+                </div>
+
+                <div id="faceBtn" class="counterImg">
+                    <img id="faceBtnImg" src="img/faceclock.gif">
+                </div>
+
+            </div>
+            <div id="game" class="row">
+                <!--Game goes here-->
+            </div>
+
+
+        </div>
+    </div>
+</body>
+
+</html>

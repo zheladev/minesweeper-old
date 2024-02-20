@@ -1,0 +1,74 @@
+body {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  margin: 0;
+  background-image: url(../img/Desert_Camo_Gulf_War_Style.svg); }
+  body #choice-buttons {
+    padding: 0; }
+    body #choice-buttons .btn-group {
+      display: flex;
+      justify-content: space-between; }
+      body #choice-buttons .btn-group#btnGroup > button {
+        flex-basis: 25%;
+        font-weight: 400;
+        font-size: 14px;
+        padding: 6px 12px;
+        border: 1px solid transparent;
+        background-color: #cfa67f; }
+        body #choice-buttons .btn-group#btnGroup > button:hover {
+          cursor: pointer;
+          background-color: #a9733f; }
+      body #choice-buttons .btn-group#debugBtn > button {
+        flex-basis: 50%;
+        font-weight: 400;
+        font-size: 14px;
+        padding: 6px 12px;
+        border: 1px solid transparent;
+        background-color: #cca36e; }
+        body #choice-buttons .btn-group#debugBtn > button:hover {
+          cursor: pointer;
+          background-color: #9d7037; }
+  body .game-container {
+    position: relative;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 60%; }
+    body .game-container #minesweeper {
+      display: none;
+      border: solid 1px grey;
+      flex-wrap: nowrap;
+      margin: auto;
+      padding: 2px 1px 2px 1px;
+      background-color: #cfa67f; }
+      body .game-container #minesweeper #gameCounter {
+        padding-bottom: 5px;
+        display: flex; }
+        body .game-container #minesweeper #gameCounter > .counterImg {
+          display: flex;
+          flex: 1; }
+        body .game-container #minesweeper #gameCounter:first-child {
+          justify-content: flex-start; }
+          body .game-container #minesweeper #gameCounter:first-child div {
+            margin-left: 0;
+            margin-right: auto; }
+        body .game-container #minesweeper #gameCounter #faceBtn img {
+          display: block;
+          margin-right: auto;
+          margin-left: auto; }
+        body .game-container #minesweeper #gameCounter:last-child {
+          justify-content: flex-end; }
+          body .game-container #minesweeper #gameCounter:last-child div {
+            margin-left: auto;
+            margin-right: 0; }
+      body .game-container #minesweeper #game {
+        padding: 0; }
+        body .game-container #minesweeper #game > .row {
+          display: flex;
+          flex-wrap: nowrap;
+          margin: 0 1px 0 1px; }
+          body .game-container #minesweeper #game > .row > img {
+            margin: 0 1px 0 1px; }
